@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#120A1F,#321F33,#7A5254);
+    height: 100vh;
+}
+section{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ul{
+    text-align: center;
+}
+ul:hover li a{
+    opacity: 0;
+}
+ul li{
+    list-style: none;
+    margin: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #d8a597;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    width: 120px;
+}
+
+ul li a:hover{
+    transform: scale(1.5);
+    background-color: #dcc7a7;
+    opacity: 1;
+}
